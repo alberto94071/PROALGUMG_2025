@@ -9,7 +9,7 @@ from tkinter import messagebox, ttk
 # Lista de diccionarios que funciona como base de datos de usuarios.
 usuarios_registrados = [
     {"usuario": "ADMIN", "contrasena": "ADMIN", "rol": "administrador"},
-    {"usuario": "RONY MENDEZ", "contrasena": "0000", "rol": "usuario"}
+    {"usuario": "INVITADO", "contrasena": "0000", "rol": "usuario"}
 ]
 
 
@@ -381,4 +381,5 @@ class FrameUsuario(tk.Frame):
 if __name__ == "__main__":
     ventana_principal = tk.Tk()
     app = App(ventana_principal)
+
     ventana_principal.mainloop()
