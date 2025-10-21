@@ -26,7 +26,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 1.  Asegúrate de tener **Python 3** instalado en tu sistema.
 2.  Descarga o clona este repositorio:
     ```bash
-    git clone git clone https://github.com/alberto94071/PROALGUMG_2025.git
+    git clone https://github.com/alberto94071/PROALGUMG_2025.git
     ```
 3.  Navega a la carpeta del proyecto:
     ```bash
