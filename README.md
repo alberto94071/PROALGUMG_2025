@@ -1,2 +1,56 @@
-# PROALGUMG_2025
-AQUI SE ENLISTAN TODOS LOS RECURSOS Y CÓDIGO FUENTE DEL PROYECTO "DIRECTORIO DE ENTIDADES" DEL GRUPO DEL CURSO DE ALGORITMOS SEGUNDO CICLO SECIÓN "B" DE LA CARRERA DE INGENIERIA EN SISTEMAS DE LA UNIVERSIDAD MARIANO GALVEZ DE GUATEMALA, SEDE SAN PEDRO SACATEPEQUEZ, SAN MARCOS
+# Directorio de Entidades del Estado - Proyecto de Algoritmos
+
+Este es un proyecto universitario para el curso de Algoritmos, desarrollado en Python con una interfaz gráfica (GUI) usando Tkinter.
+
+## Descripción
+
+El software es un sistema de escritorio que permite gestionar un directorio de entidades del estado. El programa cuenta con un sistema de inicio de sesión y diferenciación de roles (Administrador y Usuario), permitiendo un control de acceso a la información.
+
+## 🚀 Características
+
+* **Sistema de Login:** Verificación de credenciales con un límite de 3 intentos.
+* **Registro de Usuarios:** Permite la creación de nuevas cuentas de "usuario".
+* **Registro de Administradores:** Sistema de registro protegido por un código secreto (`UMG2025`).
+* **Panel de Administrador:** Permite gestionar las entidades (CRUD):
+    * **C**rear nuevas entidades.
+    * **R**eer (visualizar) el listado completo.
+    * **U**pdate (modificar) entidades existentes.
+    * **D**elete (eliminar) entidades.
+* **Panel de Usuario:** Vista de **solo lectura** del directorio de entidades.
+* **Gestión de Datos:** La aplicación maneja campos como ID, Nombre, Tipo, Dirección, Teléfono y URL del sitio web.
+
+## 💻 Cómo Ejecutar
+
+Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
+
+1.  Asegúrate de tener **Python 3** instalado en tu sistema.
+2.  Descarga o clona este repositorio:
+    ```bash
+    git clone [https://github.com/](https://github.com/)[tu-usuario]/[tu-repositorio].git
+    ```
+3.  Navega a la carpeta del proyecto:
+    ```bash
+    cd [nombre-de-la-carpeta]
+    ```
+4.  Ejecuta el script principal de Python:
+    ```bash
+    python proyecto_gui.py
+    ```
+    (No se requieren instalaciones adicionales, ya que **Tkinter** viene incluido con Python).
+
+## 🔑 Credenciales de Prueba
+
+Puedes usar las siguientes credenciales para probar la aplicación:
+
+* **Administrador:**
+    * **Usuario:** `admin`
+    * **Contraseña:** `12345`
+* **Usuario Normal:**
+    * **Usuario:** `rony`
+    * **Contraseña:** `2024`
+
+Para registrar un nuevo administrador, usa el código: `UMG2025`
+
+## Autor
+
+* [Tu Nombre Aquí] - Estudiante de Ingeniería en Sistemas.
