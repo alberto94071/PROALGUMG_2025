@@ -30,11 +30,11 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
     ```
 3.  Navega a la carpeta del proyecto:
     ```bash
-    cd [nombre-de-la-carpeta]
+    cd [ubicación-de-la-carpeta]
     ```
 4.  Ejecuta el script principal de Python:
     ```bash
-    python proyecto_gui.py
+    python ENTIDADES_ESTADO.py
     ```
     (No se requieren instalaciones adicionales, ya que **Tkinter** viene incluido con Python).
 
@@ -43,14 +43,19 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 Puedes usar las siguientes credenciales para probar la aplicación:
 
 * **Administrador:**
-    * **Usuario:** `admin`
-    * **Contraseña:** `12345`
+    * **Usuario:** `ADMIN`
+    * **Contraseña:** `ADMIN`
 * **Usuario Normal:**
-    * **Usuario:** `rony`
-    * **Contraseña:** `2024`
+    * **Usuario:** `INVITADO`
+    * **Contraseña:** `0000`
 
 Para registrar un nuevo administrador, usa el código: `UMG2025`
 
-## Autor
-
-* [Tu Nombre Aquí] - Estudiante de Ingeniería en Sistemas.
+## Autores
+ ```bash
+* JEIMY VANESA GÓMEZ LÓPEZ - 0903-25-#####
+* CESIA DANIELA LÓPEZ MORALES - 0903-25-#####.
+* JOAQUIN DANIEL MALDONADO VELÁSQUEZ - 0903-25-#####.
+* IVANA MARCELA MALIN DE LEÓN - 0903-25-#####.
+* RONY ALBERTO MÉNDEZ FUENTES - 0903-25-29637.
+```
